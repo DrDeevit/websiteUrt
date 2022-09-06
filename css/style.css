@@ -14,7 +14,7 @@ a {
   font-weight: 300;
   letter-spacing: 2px;
   text-decoration: none;
-  background: rgb(238, 13, 13);
+  background: rgb(60, 179, 113);
   padding: 20px 5px;
   
   width: 100%;
@@ -29,8 +29,8 @@ a:hover {
 }
 
 .main {
-  max-width: 1200px;
-  margin: 0 auto;
+  
+  margin: 1em auto;
   padding: 0 3em 1.5em;
 }
 
@@ -99,7 +99,7 @@ p {
  }
  
  /* Responsive layout - makes a two column-layout instead of four columns */
- @media (max-width: 800px) {
+ @media (max-width: 1000px) {
    .column {
      flex: 50%;
      max-width: 50%;
@@ -107,7 +107,7 @@ p {
  }
  
  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
- @media (max-width: 600px) {
+ @media (max-width: 480px) {
    .column {
      flex: 100%;
      max-width: 100%;
